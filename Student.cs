@@ -61,7 +61,7 @@ namespace StudentGrading
         }
         public override string ToString()
         {
-            return ($"Name : {Name};  RollNo : {RollNo} ;Marks :  Marks: {string.Join(", ", Marks); Average : {CalculateAverage()}; Grade : {CalculateGrade()}");
+            return ($"Name : {Name};  RollNo : {RollNo} ; Marks : {string.Join(", ", Marks); Average : {CalculateAverage()}; Grade : {CalculateGrade()}");
         }
     }
 }
